@@ -11,3 +11,16 @@ h1{
 ul{
   padding-left: 80px;
 }
+
+.correct-style{
+  color:green;
+  &::after{
+    content:'-正解！'
+  }
+}
+.incorrect-style{
+  color:red;
+  &::after{
+    content:'-不正解...'
+  }
+}

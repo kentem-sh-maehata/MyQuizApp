@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   width: 600px;
   margin: 0 auto;
@@ -12,4 +13,18 @@ h1 {
 
 ul {
   padding-left: 80px;
+}
+
+.correct-style {
+  color: green;
+}
+.correct-style::after {
+  content: "-正解！";
+}
+
+.incorrect-style {
+  color: red;
+}
+.incorrect-style::after {
+  content: "-不正解...";
 }/*# sourceMappingURL=style.css.map */
